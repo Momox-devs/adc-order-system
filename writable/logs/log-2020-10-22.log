@@ -1,0 +1,36 @@
+CRITICAL - 2020-10-22 20:50:30 --> 52 : Empty reply from server
+#0 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(821): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError()
+#1 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(449): CodeIgniter\HTTP\CURLRequest->sendRequest()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(158): CodeIgniter\HTTP\CURLRequest->send()
+#3 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(175): CodeIgniter\HTTP\CURLRequest->request()
+#4 /home/developer/ADC/ADC-PEL20/app/Controllers/Orders.php(46): CodeIgniter\HTTP\CURLRequest->get()
+#5 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Orders->search()
+#6 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#7 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#10 {main}
+CRITICAL - 2020-10-22 22:36:47 --> 6 : Could not resolve host: virtserver.swaggerhub.com
+#0 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(821): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError()
+#1 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(449): CodeIgniter\HTTP\CURLRequest->sendRequest()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(158): CodeIgniter\HTTP\CURLRequest->send()
+#3 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(175): CodeIgniter\HTTP\CURLRequest->request()
+#4 /home/developer/ADC/ADC-PEL20/app/Controllers/Orders.php(46): CodeIgniter\HTTP\CURLRequest->get()
+#5 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Orders->search()
+#6 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#7 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#10 {main}
+CRITICAL - 2020-10-22 22:37:01 --> 6 : Could not resolve host: virtserver.swaggerhub.com
+#0 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(821): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError()
+#1 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(449): CodeIgniter\HTTP\CURLRequest->sendRequest()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(158): CodeIgniter\HTTP\CURLRequest->send()
+#3 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(175): CodeIgniter\HTTP\CURLRequest->request()
+#4 /home/developer/ADC/ADC-PEL20/app/Controllers/Orders.php(46): CodeIgniter\HTTP\CURLRequest->get()
+#5 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Orders->search()
+#6 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#7 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#10 {main}

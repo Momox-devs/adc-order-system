@@ -1,0 +1,66 @@
+CRITICAL - 2020-10-29 23:41:00 --> json_decode() expects parameter 1 to be string, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/developer/ADC/ADC-PEL20/app/Controllers/Orders.php(45): json_decode()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Orders->create()
+#3 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#7 {main}
+CRITICAL - 2020-10-29 23:41:53 --> json_decode() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/developer/ADC/ADC-PEL20/app/Controllers/Orders.php(45): json_decode()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Orders->create()
+#3 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#7 {main}
+CRITICAL - 2020-10-29 23:41:56 --> json_decode() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/developer/ADC/ADC-PEL20/app/Controllers/Orders.php(45): json_decode()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Orders->create()
+#3 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#7 {main}
+CRITICAL - 2020-10-29 23:42:22 --> json_decode() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/developer/ADC/ADC-PEL20/app/Controllers/Orders.php(45): json_decode()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Orders->create()
+#3 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#7 {main}
+CRITICAL - 2020-10-29 23:42:25 --> json_decode() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/developer/ADC/ADC-PEL20/app/Controllers/Orders.php(45): json_decode()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Orders->create()
+#3 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#7 {main}
+CRITICAL - 2020-10-29 23:43:20 --> Call to a member function get() on null
+#0 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Orders->create()
+#1 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#5 {main}
+CRITICAL - 2020-10-29 23:43:23 --> Call to a member function get() on null
+#0 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Orders->create()
+#1 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#5 {main}
+CRITICAL - 2020-10-29 23:43:37 --> Call to a member function post() on null
+#0 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Orders->create()
+#1 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#5 {main}

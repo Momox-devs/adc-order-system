@@ -1,0 +1,40 @@
+CRITICAL - 2020-11-16 07:05:01 --> Invalid file: orders/products/All.php
+#0 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render()
+#2 /home/developer/ADC/ADC-PEL20/app/Controllers/Orders.php(194): view()
+#3 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Orders->getListProducts()
+#4 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#8 {main}
+CRITICAL - 2020-11-16 07:05:22 --> Invalid file: orders/products/All.php
+#0 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render()
+#2 /home/developer/ADC/ADC-PEL20/app/Controllers/Orders.php(194): view()
+#3 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Orders->getListProducts()
+#4 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#8 {main}
+CRITICAL - 2020-11-16 07:07:58 --> Invalid file: orders/products/All.php
+#0 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render()
+#2 /home/developer/ADC/ADC-PEL20/app/Controllers/Orders.php(194): view()
+#3 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Orders->getListProducts()
+#4 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#8 {main}
+CRITICAL - 2020-11-16 13:14:56 --> Invalid file: orders/products/All.php
+#0 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render()
+#2 /home/developer/ADC/ADC-PEL20/app/Controllers/Orders.php(194): view()
+#3 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Orders->getListProducts()
+#4 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#8 {main}

@@ -1,0 +1,499 @@
+CRITICAL - 2020-10-28 00:46:33 --> 6 : Could not resolve host: telares-api.fmsolutions2.com
+#0 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(821): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError()
+#1 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(449): CodeIgniter\HTTP\CURLRequest->sendRequest()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(158): CodeIgniter\HTTP\CURLRequest->send()
+#3 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(175): CodeIgniter\HTTP\CURLRequest->request()
+#4 /home/developer/ADC/ADC-PEL20/app/Controllers/Orders.php(107): CodeIgniter\HTTP\CURLRequest->get()
+#5 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Orders->search()
+#6 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#7 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#10 {main}
+CRITICAL - 2020-10-28 00:50:17 --> Unable to connect to the database.
+#0 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Model.php(404): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/developer/ADC/ADC-PEL20/app/Controllers/Orders.php(57): CodeIgniter\Model->find()
+#4 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Orders->list()
+#5 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#9 {main}
+CRITICAL - 2020-10-28 00:50:41 --> Unable to connect to the database.
+#0 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Model.php(404): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/developer/ADC/ADC-PEL20/app/Controllers/Orders.php(57): CodeIgniter\Model->find()
+#4 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Orders->list()
+#5 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#9 {main}
+CRITICAL - 2020-10-28 00:50:52 --> Unable to connect to the database.
+#0 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Model.php(404): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/developer/ADC/ADC-PEL20/app/Controllers/Orders.php(57): CodeIgniter\Model->find()
+#4 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Orders->list()
+#5 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#9 {main}
+CRITICAL - 2020-10-28 00:50:53 --> Unable to connect to the database.
+#0 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Model.php(404): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/developer/ADC/ADC-PEL20/app/Controllers/Orders.php(57): CodeIgniter\Model->find()
+#4 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Orders->list()
+#5 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#9 {main}
+CRITICAL - 2020-10-28 00:50:53 --> Unable to connect to the database.
+#0 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Model.php(404): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/developer/ADC/ADC-PEL20/app/Controllers/Orders.php(57): CodeIgniter\Model->find()
+#4 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Orders->list()
+#5 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#9 {main}
+CRITICAL - 2020-10-28 00:50:53 --> Unable to connect to the database.
+#0 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Model.php(404): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/developer/ADC/ADC-PEL20/app/Controllers/Orders.php(57): CodeIgniter\Model->find()
+#4 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Orders->list()
+#5 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#9 {main}
+CRITICAL - 2020-10-28 00:51:12 --> Only variables should be passed by reference
+#0 /home/developer/ADC/ADC-PEL20/app/Controllers/Orders.php(57): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Orders->list()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#6 {main}
+CRITICAL - 2020-10-28 00:51:23 --> Only variables should be passed by reference
+#0 /home/developer/ADC/ADC-PEL20/app/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->dashboard()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#6 {main}
+CRITICAL - 2020-10-28 00:51:38 --> Only variables should be passed by reference
+#0 /home/developer/ADC/ADC-PEL20/app/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->dashboard()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#6 {main}
+CRITICAL - 2020-10-28 00:51:51 --> Only variables should be passed by reference
+#0 /home/developer/ADC/ADC-PEL20/app/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->dashboard()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#6 {main}
+CRITICAL - 2020-10-28 00:51:52 --> Only variables should be passed by reference
+#0 /home/developer/ADC/ADC-PEL20/app/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->dashboard()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#6 {main}
+CRITICAL - 2020-10-28 00:52:02 --> Only variables should be passed by reference
+#0 /home/developer/ADC/ADC-PEL20/app/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->dashboard()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#6 {main}
+CRITICAL - 2020-10-28 00:52:06 --> Only variables should be passed by reference
+#0 /home/developer/ADC/ADC-PEL20/app/Controllers/Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Home->dashboard()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#6 {main}
+CRITICAL - 2020-10-28 00:54:00 --> 22 : The requested URL returned error: 400 Bad Request
+#0 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(821): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError()
+#1 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(449): CodeIgniter\HTTP\CURLRequest->sendRequest()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(158): CodeIgniter\HTTP\CURLRequest->send()
+#3 /home/developer/ADC/ADC-PEL20/app/Controllers/Orders.php(239): CodeIgniter\HTTP\CURLRequest->request()
+#4 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Orders->send()
+#5 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#9 {main}
+CRITICAL - 2020-10-28 00:55:40 --> 22 : The requested URL returned error: 400 Bad Request
+#0 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(821): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError()
+#1 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(449): CodeIgniter\HTTP\CURLRequest->sendRequest()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(158): CodeIgniter\HTTP\CURLRequest->send()
+#3 /home/developer/ADC/ADC-PEL20/app/Controllers/Orders.php(239): CodeIgniter\HTTP\CURLRequest->request()
+#4 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Orders->send()
+#5 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#9 {main}
+CRITICAL - 2020-10-28 00:57:49 --> 22 : The requested URL returned error: 400 Bad Request
+#0 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(821): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError()
+#1 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(449): CodeIgniter\HTTP\CURLRequest->sendRequest()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(158): CodeIgniter\HTTP\CURLRequest->send()
+#3 /home/developer/ADC/ADC-PEL20/app/Controllers/Orders.php(239): CodeIgniter\HTTP\CURLRequest->request()
+#4 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Orders->send()
+#5 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#9 {main}
+CRITICAL - 2020-10-28 01:02:08 --> 22 : The requested URL returned error: 400 Bad Request
+#0 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(821): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError()
+#1 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(449): CodeIgniter\HTTP\CURLRequest->sendRequest()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(158): CodeIgniter\HTTP\CURLRequest->send()
+#3 /home/developer/ADC/ADC-PEL20/app/Controllers/Orders.php(239): CodeIgniter\HTTP\CURLRequest->request()
+#4 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Orders->send()
+#5 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#9 {main}
+CRITICAL - 2020-10-28 01:06:09 --> 22 : The requested URL returned error: 400 Bad Request
+#0 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(821): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError()
+#1 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(449): CodeIgniter\HTTP\CURLRequest->sendRequest()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(158): CodeIgniter\HTTP\CURLRequest->send()
+#3 /home/developer/ADC/ADC-PEL20/app/Controllers/Orders.php(239): CodeIgniter\HTTP\CURLRequest->request()
+#4 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Orders->send()
+#5 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#9 {main}
+CRITICAL - 2020-10-28 01:06:54 --> 22 : The requested URL returned error: 400 Bad Request
+#0 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(821): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError()
+#1 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(449): CodeIgniter\HTTP\CURLRequest->sendRequest()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(158): CodeIgniter\HTTP\CURLRequest->send()
+#3 /home/developer/ADC/ADC-PEL20/app/Controllers/Orders.php(239): CodeIgniter\HTTP\CURLRequest->request()
+#4 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Orders->send()
+#5 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#9 {main}
+CRITICAL - 2020-10-28 01:07:02 --> Call to undefined method App\Models\OrderModel::insertID
+#0 /home/developer/ADC/ADC-PEL20/app/Controllers/Orders.php(278): CodeIgniter\Model->__call()
+#1 /home/developer/ADC/ADC-PEL20/app/Controllers/Orders.php(151): App\Controllers\Orders->insert()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Orders->save()
+#3 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#7 {main}
+CRITICAL - 2020-10-28 01:07:27 --> 22 : The requested URL returned error: 400 Bad Request
+#0 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(821): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError()
+#1 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(449): CodeIgniter\HTTP\CURLRequest->sendRequest()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(158): CodeIgniter\HTTP\CURLRequest->send()
+#3 /home/developer/ADC/ADC-PEL20/app/Controllers/Orders.php(239): CodeIgniter\HTTP\CURLRequest->request()
+#4 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Orders->send()
+#5 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#9 {main}
+CRITICAL - 2020-10-28 01:08:36 --> 22 : The requested URL returned error: 400 Bad Request
+#0 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(821): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError()
+#1 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(449): CodeIgniter\HTTP\CURLRequest->sendRequest()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(158): CodeIgniter\HTTP\CURLRequest->send()
+#3 /home/developer/ADC/ADC-PEL20/app/Controllers/Orders.php(240): CodeIgniter\HTTP\CURLRequest->request()
+#4 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Orders->send()
+#5 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#9 {main}
+CRITICAL - 2020-10-28 01:09:02 --> Unable to connect to the database.
+#0 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Model.php(404): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/developer/ADC/ADC-PEL20/app/Controllers/Orders.php(133): CodeIgniter\Model->find()
+#4 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Orders->save()
+#5 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#9 {main}
+CRITICAL - 2020-10-28 01:09:24 --> Table 'ADC-PEL20.db_t_configuration' doesn't exist
+#0 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query()
+#4 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Model.php(404): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/developer/ADC/ADC-PEL20/app/Controllers/Orders.php(133): CodeIgniter\Model->find()
+#6 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Orders->save()
+#7 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#11 {main}
+CRITICAL - 2020-10-28 01:09:26 --> Table 'ADC-PEL20.db_t_configuration' doesn't exist
+#0 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query()
+#4 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Model.php(404): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/developer/ADC/ADC-PEL20/app/Controllers/Orders.php(133): CodeIgniter\Model->find()
+#6 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Orders->save()
+#7 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#8 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#11 {main}
+CRITICAL - 2020-10-28 01:09:43 --> Only variables should be passed by reference
+#0 /home/developer/ADC/ADC-PEL20/app/Controllers/Orders.php(134): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Orders->save()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#6 {main}
+CRITICAL - 2020-10-28 01:10:46 --> Trying to get property 'id_order' of non-object
+#0 /home/developer/ADC/ADC-PEL20/app/Controllers/Orders.php(196): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Orders->send()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#6 {main}
+CRITICAL - 2020-10-28 01:11:36 --> Undefined index: cook-login
+#0 /home/developer/ADC/ADC-PEL20/app/Filters/Session.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\Session->before()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(382): CodeIgniter\Filters\Filters->run()
+#3 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#6 {main}
+CRITICAL - 2020-10-28 01:11:46 --> Only variables should be passed by reference
+#0 /home/developer/ADC/ADC-PEL20/app/Controllers/Orders.php(134): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Orders->save()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#6 {main}
+CRITICAL - 2020-10-28 01:11:50 --> Only variables should be passed by reference
+#0 /home/developer/ADC/ADC-PEL20/app/Controllers/Orders.php(134): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Orders->save()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#6 {main}
+CRITICAL - 2020-10-28 01:12:12 --> Undefined index: cook-login
+#0 /home/developer/ADC/ADC-PEL20/app/Filters/Session.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\Session->before()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(382): CodeIgniter\Filters\Filters->run()
+#3 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#6 {main}
+CRITICAL - 2020-10-28 01:12:44 --> Trying to get property 'id_order' of non-object
+#0 /home/developer/ADC/ADC-PEL20/app/Controllers/Orders.php(196): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Orders->send()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#6 {main}
+CRITICAL - 2020-10-28 01:12:45 --> Trying to get property 'id_order' of non-object
+#0 /home/developer/ADC/ADC-PEL20/app/Controllers/Orders.php(196): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Orders->send()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#6 {main}
+CRITICAL - 2020-10-28 01:12:48 --> Undefined index: cook-login
+#0 /home/developer/ADC/ADC-PEL20/app/Filters/Session.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\Session->before()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(382): CodeIgniter\Filters\Filters->run()
+#3 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#6 {main}
+CRITICAL - 2020-10-28 01:12:50 --> Undefined index: cook-login
+#0 /home/developer/ADC/ADC-PEL20/app/Filters/Session.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\Session->before()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(382): CodeIgniter\Filters\Filters->run()
+#3 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#6 {main}
+CRITICAL - 2020-10-28 01:12:54 --> Undefined index: cook-login
+#0 /home/developer/ADC/ADC-PEL20/app/Filters/Session.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Filters/Filters.php(173): App\Filters\Session->before()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(382): CodeIgniter\Filters\Filters->run()
+#3 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-28 01:13:06 --> Trying to get property 'id_order' of non-object
+#0 /home/developer/ADC/ADC-PEL20/app/Controllers/Orders.php(196): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Orders->send()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#6 {main}
+CRITICAL - 2020-10-28 01:13:07 --> Trying to get property 'id_order' of non-object
+#0 /home/developer/ADC/ADC-PEL20/app/Controllers/Orders.php(196): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Orders->send()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#6 {main}
+CRITICAL - 2020-10-28 01:13:07 --> Trying to get property 'id_order' of non-object
+#0 /home/developer/ADC/ADC-PEL20/app/Controllers/Orders.php(196): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Orders->send()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#6 {main}
+CRITICAL - 2020-10-28 01:13:07 --> Trying to get property 'id_order' of non-object
+#0 /home/developer/ADC/ADC-PEL20/app/Controllers/Orders.php(196): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Orders->send()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#6 {main}
+CRITICAL - 2020-10-28 01:14:00 --> 22 : The requested URL returned error: 404 Not Found
+#0 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(821): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError()
+#1 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(449): CodeIgniter\HTTP\CURLRequest->sendRequest()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(158): CodeIgniter\HTTP\CURLRequest->send()
+#3 /home/developer/ADC/ADC-PEL20/app/Controllers/Orders.php(240): CodeIgniter\HTTP\CURLRequest->request()
+#4 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Orders->send()
+#5 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#9 {main}
+CRITICAL - 2020-10-28 01:14:05 --> 22 : The requested URL returned error: 404 Not Found
+#0 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(821): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError()
+#1 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(449): CodeIgniter\HTTP\CURLRequest->sendRequest()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(158): CodeIgniter\HTTP\CURLRequest->send()
+#3 /home/developer/ADC/ADC-PEL20/app/Controllers/Orders.php(240): CodeIgniter\HTTP\CURLRequest->request()
+#4 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Orders->send()
+#5 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#9 {main}
+CRITICAL - 2020-10-28 01:23:05 --> 22 : The requested URL returned error: 404 Not Found
+#0 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(821): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError()
+#1 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(449): CodeIgniter\HTTP\CURLRequest->sendRequest()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(158): CodeIgniter\HTTP\CURLRequest->send()
+#3 /home/developer/ADC/ADC-PEL20/app/Controllers/Orders.php(240): CodeIgniter\HTTP\CURLRequest->request()
+#4 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Orders->send()
+#5 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#9 {main}
+CRITICAL - 2020-10-28 01:23:12 --> 22 : The requested URL returned error: 404 Not Found
+#0 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(821): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError()
+#1 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(449): CodeIgniter\HTTP\CURLRequest->sendRequest()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(158): CodeIgniter\HTTP\CURLRequest->send()
+#3 /home/developer/ADC/ADC-PEL20/app/Controllers/Orders.php(240): CodeIgniter\HTTP\CURLRequest->request()
+#4 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Orders->send()
+#5 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#9 {main}
+CRITICAL - 2020-10-28 01:24:13 --> 22 : The requested URL returned error: 404 Not Found
+#0 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(821): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError()
+#1 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(449): CodeIgniter\HTTP\CURLRequest->sendRequest()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(158): CodeIgniter\HTTP\CURLRequest->send()
+#3 /home/developer/ADC/ADC-PEL20/app/Controllers/Orders.php(240): CodeIgniter\HTTP\CURLRequest->request()
+#4 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Orders->send()
+#5 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#9 {main}
+CRITICAL - 2020-10-28 01:25:19 --> 22 : The requested URL returned error: 404 Not Found
+#0 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(821): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError()
+#1 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(449): CodeIgniter\HTTP\CURLRequest->sendRequest()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(158): CodeIgniter\HTTP\CURLRequest->send()
+#3 /home/developer/ADC/ADC-PEL20/app/Controllers/Orders.php(241): CodeIgniter\HTTP\CURLRequest->request()
+#4 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Orders->send()
+#5 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#9 {main}
+CRITICAL - 2020-10-28 01:25:40 --> 22 : The requested URL returned error: 404 Not Found
+#0 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(821): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError()
+#1 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(449): CodeIgniter\HTTP\CURLRequest->sendRequest()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(158): CodeIgniter\HTTP\CURLRequest->send()
+#3 /home/developer/ADC/ADC-PEL20/app/Controllers/Orders.php(241): CodeIgniter\HTTP\CURLRequest->request()
+#4 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Orders->send()
+#5 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#9 {main}
+CRITICAL - 2020-10-28 02:46:25 --> Call to a member function where() on null
+#0 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Orders->edit()
+#1 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#5 {main}
+CRITICAL - 2020-10-28 02:46:38 --> Call to a member function where() on null
+#0 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Orders->edit()
+#1 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#5 {main}
+CRITICAL - 2020-10-28 02:47:57 --> Call to a member function where() on null
+#0 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Orders->edit()
+#1 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#5 {main}
+CRITICAL - 2020-10-28 02:48:08 --> Call to a member function where() on null
+#0 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Orders->edit()
+#1 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#5 {main}
+CRITICAL - 2020-10-28 02:48:38 --> Call to a member function where() on null
+#0 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Orders->edit()
+#1 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#5 {main}

@@ -1,0 +1,99 @@
+CRITICAL - 2020-10-12 16:34:37 --> Argument 2 passed to view() must be of the type array, null given, called in /home/developer/ADC/ADC-PEL20/app/Controllers/Office.php on line 24
+#0 /home/developer/ADC/ADC-PEL20/app/Controllers/Office.php(24): view()
+#1 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Office->create_order()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#6 {main}
+CRITICAL - 2020-10-12 16:34:42 --> Argument 2 passed to view() must be of the type array, null given, called in /home/developer/ADC/ADC-PEL20/app/Controllers/Office.php on line 24
+#0 /home/developer/ADC/ADC-PEL20/app/Controllers/Office.php(24): view()
+#1 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Office->create_order()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#6 {main}
+CRITICAL - 2020-10-12 16:34:45 --> Argument 2 passed to view() must be of the type array, null given, called in /home/developer/ADC/ADC-PEL20/app/Controllers/Office.php on line 24
+#0 /home/developer/ADC/ADC-PEL20/app/Controllers/Office.php(24): view()
+#1 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Office->create_order()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#6 {main}
+CRITICAL - 2020-10-12 16:37:27 --> Class 'App\Controllers\UserTypesEnum' not found
+#0 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Office->create_order()
+#1 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#5 {main}
+CRITICAL - 2020-10-12 16:37:33 --> Class 'App\Controllers\UserTypesEnum' not found
+#0 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Office->create_order()
+#1 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#5 {main}
+CRITICAL - 2020-10-12 16:45:05 --> Class 'App\Controllers\UserTypesEnum' not found
+#0 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Office->list_orders()
+#1 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#5 {main}
+CRITICAL - 2020-10-12 18:12:34 --> array_column() expects at least 2 parameters, 1 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/developer/ADC/ADC-PEL20/app/Controllers/Office.php(40): array_column()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Office->create_order()
+#3 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#7 {main}
+CRITICAL - 2020-10-12 18:12:59 --> array_column() expects at least 2 parameters, 1 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/developer/ADC/ADC-PEL20/app/Controllers/Office.php(40): array_column()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Office->create_order()
+#3 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#7 {main}
+CRITICAL - 2020-10-12 18:14:04 --> array_column() expects at least 2 parameters, 1 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/developer/ADC/ADC-PEL20/app/Controllers/Office.php(40): array_column()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Office->create_order()
+#3 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#7 {main}
+CRITICAL - 2020-10-12 18:14:05 --> array_column() expects at least 2 parameters, 1 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/developer/ADC/ADC-PEL20/app/Controllers/Office.php(40): array_column()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Office->create_order()
+#3 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#7 {main}
+CRITICAL - 2020-10-12 18:14:10 --> array_column() expects at least 2 parameters, 1 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/developer/ADC/ADC-PEL20/app/Controllers/Office.php(40): array_column()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Office->create_order()
+#3 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#7 {main}
+CRITICAL - 2020-10-12 18:14:30 --> in_array() expects at least 2 parameters, 1 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/developer/ADC/ADC-PEL20/app/Controllers/Office.php(40): in_array()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Office->create_order()
+#3 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#7 {main}

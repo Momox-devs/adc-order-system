@@ -1,0 +1,7 @@
+CRITICAL - 2020-11-12 08:43:05 --> Too few arguments to function App\Controllers\Orders::getListProducts(), 0 passed in /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php on line 918 and exactly 1 expected
+#0 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Orders->getListProducts()
+#1 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#5 {main}

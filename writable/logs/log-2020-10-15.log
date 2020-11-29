@@ -1,0 +1,153 @@
+CRITICAL - 2020-10-15 06:55:55 --> 6 : Could not resolve host: virtserver.swaggerhub.com
+#0 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(821): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError()
+#1 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(449): CodeIgniter\HTTP\CURLRequest->sendRequest()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(158): CodeIgniter\HTTP\CURLRequest->send()
+#3 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(175): CodeIgniter\HTTP\CURLRequest->request()
+#4 /home/developer/ADC/ADC-PEL20/app/Controllers/Orders.php(46): CodeIgniter\HTTP\CURLRequest->get()
+#5 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Orders->search()
+#6 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#7 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#10 {main}
+CRITICAL - 2020-10-15 06:55:57 --> 6 : Could not resolve host: virtserver.swaggerhub.com
+#0 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(821): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError()
+#1 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(449): CodeIgniter\HTTP\CURLRequest->sendRequest()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(158): CodeIgniter\HTTP\CURLRequest->send()
+#3 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(175): CodeIgniter\HTTP\CURLRequest->request()
+#4 /home/developer/ADC/ADC-PEL20/app/Controllers/Orders.php(46): CodeIgniter\HTTP\CURLRequest->get()
+#5 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Orders->search()
+#6 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#7 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#10 {main}
+CRITICAL - 2020-10-15 06:55:59 --> 6 : Could not resolve host: virtserver.swaggerhub.com
+#0 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(821): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError()
+#1 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(449): CodeIgniter\HTTP\CURLRequest->sendRequest()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(158): CodeIgniter\HTTP\CURLRequest->send()
+#3 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(175): CodeIgniter\HTTP\CURLRequest->request()
+#4 /home/developer/ADC/ADC-PEL20/app/Controllers/Orders.php(46): CodeIgniter\HTTP\CURLRequest->get()
+#5 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Orders->search()
+#6 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#7 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#10 {main}
+CRITICAL - 2020-10-15 06:57:19 --> 6 : Could not resolve host: virtserver.swaggerhub.com
+#0 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(821): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError()
+#1 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(449): CodeIgniter\HTTP\CURLRequest->sendRequest()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(158): CodeIgniter\HTTP\CURLRequest->send()
+#3 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(175): CodeIgniter\HTTP\CURLRequest->request()
+#4 /home/developer/ADC/ADC-PEL20/app/Controllers/Orders.php(46): CodeIgniter\HTTP\CURLRequest->get()
+#5 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Orders->search()
+#6 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#7 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#10 {main}
+CRITICAL - 2020-10-15 06:58:15 --> 6 : Could not resolve host: virtserver.swaggerhub.com
+#0 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(821): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError()
+#1 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(449): CodeIgniter\HTTP\CURLRequest->sendRequest()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(158): CodeIgniter\HTTP\CURLRequest->send()
+#3 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(175): CodeIgniter\HTTP\CURLRequest->request()
+#4 /home/developer/ADC/ADC-PEL20/app/Controllers/Orders.php(46): CodeIgniter\HTTP\CURLRequest->get()
+#5 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Orders->search()
+#6 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#7 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#10 {main}
+CRITICAL - 2020-10-15 07:53:46 --> 6 : Could not resolve host: virtserver.swaggerhub.com
+#0 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(821): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError()
+#1 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(449): CodeIgniter\HTTP\CURLRequest->sendRequest()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(158): CodeIgniter\HTTP\CURLRequest->send()
+#3 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/HTTP/CURLRequest.php(175): CodeIgniter\HTTP\CURLRequest->request()
+#4 /home/developer/ADC/ADC-PEL20/app/Controllers/Orders.php(46): CodeIgniter\HTTP\CURLRequest->get()
+#5 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Orders->search()
+#6 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#7 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#10 {main}
+CRITICAL - 2020-10-15 10:20:59 --> syntax error, unexpected ';', expecting ']'
+#0 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Database/Seed.php(124): CodeIgniter\Database\Seeder->call()
+#1 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CLI/Commands.php(100): CodeIgniter\Commands\Database\Seed->run()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CLI/CommandRunner.php(107): CodeIgniter\CLI\Commands->run()
+#3 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CLI/CommandRunner.php(85): CodeIgniter\CLI\CommandRunner->index()
+#4 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(914): CodeIgniter\CLI\CommandRunner->_remap()
+#5 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CLI/Console.php(86): CodeIgniter\CodeIgniter->run()
+#8 /home/developer/ADC/ADC-PEL20/spark(57): CodeIgniter\CLI\Console->run()
+#9 {main}
+CRITICAL - 2020-10-15 10:31:33 --> Class 'App\Controllers\ConfigModel' not found
+#0 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Config->edit()
+#1 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#5 {main}
+CRITICAL - 2020-10-15 10:33:20 --> Class 'App\Controllers\ConfigModel' not found
+#0 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Config->edit()
+#1 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#5 {main}
+CRITICAL - 2020-10-15 10:35:29 --> Class 'App\Controllers\ConfigModel' not found
+#0 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Config->edit()
+#1 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#5 {main}
+CRITICAL - 2020-10-15 10:36:28 --> Class 'App\Controllers\ConfigModel' not found
+#0 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Config->edit()
+#1 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#5 {main}
+CRITICAL - 2020-10-15 10:36:29 --> Class 'App\Controllers\ConfigModel' not found
+#0 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Config->edit()
+#1 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#5 {main}
+CRITICAL - 2020-10-15 10:36:41 --> Class 'App\Controllers\ConfigModel' not found
+#0 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Config->edit()
+#1 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#5 {main}
+CRITICAL - 2020-10-15 10:36:46 --> Class 'App\Controllers\ConfigModel' not found
+#0 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Config->edit()
+#1 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#5 {main}
+CRITICAL - 2020-10-15 10:37:10 --> Class 'App\Controllers\ConfigModel' not found
+#0 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Config->edit()
+#1 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#5 {main}
+CRITICAL - 2020-10-15 10:37:51 --> Class 'App\Controllers\ConfigModel' not found
+#0 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Config->edit()
+#1 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#5 {main}
+CRITICAL - 2020-10-15 10:38:01 --> Class 'App\Controllers\ConfigModel' not found
+#0 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Config->edit()
+#1 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/developer/ADC/ADC-PEL20/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/developer/ADC/ADC-PEL20/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/home/developer...')
+#5 {main}
